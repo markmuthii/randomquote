@@ -1,0 +1,74 @@
+body {
+	background: url(../img/ca.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+a {
+	text-decoration: none;
+}
+
+.container {
+	background-color: rgba(13, 33, 64, 1);
+	position: inherit;
+	width: 70%;
+	height: 90%;
+	margin: 10% auto auto auto;
+	padding: 30px 25px;
+	border-radius: 10px;
+	color: #ffffff;
+}
+
+.quoteData {
+	padding-bottom: 30px;
+}
+
+.quote {
+	text-align: center;
+	font-size: 2em;
+	font-family: roboto;
+	font-weight: 500;
+	padding-bottom: 20px;
+}
+.quoteData .fa {
+	font-size: 50px;
+	margin-right: 5px;
+	opacity: .5;
+}
+
+.author {
+	position: relative;
+	font-size: 1.25em;
+	text-align: right;
+}
+
+button {
+	font-size: 1.25em;
+	padding: 10px 15px;
+	border-radius: 10px;
+	outline: none;
+	border: none;
+	background-color: 
+}
+
+button#tweet {
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: 20px;
+}
+
+button#newQuote {
+	float: right;
+}
+
+button:hover {
+	cursor: pointer;
+}
+
+.footer {
+	text-align: center;
+	margin: 20px auto 10% auto;
+	font-size: 1.25em;
+}
